@@ -1,0 +1,28 @@
+## Problema 1 - nombre de variables
+	En un lenguaje z(para simplificar las cosas) se definen los nombres de  las variables con un conjunto de caracteres	(alfanumericos(letras,numeros) y '_'), con la condicion que el primer caracter no sea un numero.
+	Hacer un programa que lea un json(inputs/p1.json) y verifique los nombres de variables son correctos o hay un error de sintaxis
+	Ejemplos : 
+		_holaMundo - Si tiene una sintanxis correcta
+		2variable - No, porque empieza con un numero
+		qwerty-2 - No porque tiene un '-' (no permitido)
+		qwerty_Mundo - Si
+		q@+-*_ - No porque contiene caracteres no alfanuméricos
+
+
+## Problema 2 - ruleta de la soldados
+	Se tiene un numero arbitrario de n>1 soldados que forman un circulo (numerados de 0 a n-1) y un número k, 1<=k<n. Se tiene que empezando desde el primero se cuentan k posiciones(incluyendo la suya), en la posicion k es retirado el soldado y empieza nuevamente el conteo de k. Asi sucesivamente hasta que quede un solo soldado.
+	Hacer un programa que dados n,k (leídos de un json(inputs/p2.json)) devuelva el último soldado que queda en la ruleta.
+	Ejemplos : 
+		4,2  - 1
+		7,3  - 3
+		5,4  - 1
+
+## Problema 3 - textos balanceados
+    Un texto balanceado, en este caso de parentesis, es uno que por cada parentesis abierto tenga uno que lo cierre en alguna
+	parte.
+	Hacer un programa que lea una archivo json(inputs/p3.json) y permita saber si un string es balanceado o no
+	Ejemplos : 
+		") Esto no es un string balanceado" - No
+		"(((hola)))" - Si
+		"())(" - No
+		"Esto es un string balanceado (aparentemente)" - Si

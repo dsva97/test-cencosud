@@ -1,0 +1,12 @@
+{
+  "name": "problemas_cenco",
+  "version": "1.0.0",
+  "description": "Test técnico para CENCOSUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "node problema3/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
